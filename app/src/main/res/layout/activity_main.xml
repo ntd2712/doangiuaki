@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="28pt"
+        android:background="@drawable/ic_backgroud_index">
+        <ImageView
+            android:layout_width="30pt"
+            android:layout_height="28pt"
+            android:src="@drawable/danhmuc"
+            android:layout_weight=".1"/>
+    <TextView
+        android:layout_width="30pt"
+        android:layout_height="match_parent"
+        android:text="Home"
+        android:gravity="center"
+        android:layout_weight=".2"
+        android:textStyle="bold"
+        android:textSize="14pt"
+        android:textColor="@color/white" />
+        <TextView
+            android:layout_width="0pt"
+            android:layout_height="0pt"
+            android:layout_weight=".9"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="18pt"
+            android:src="@drawable/search"
+            android:layout_gravity="center"
+            android:layout_weight=".1"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="20pt"
+            android:src="@drawable/giohang"
+            android:layout_gravity="center"
+            android:layout_weight=".1"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60pt">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60pt"
+            android:background="@drawable/bg_bathandbodycare"
+            android:layout_marginTop="30dp"
+            android:text="Bath And Body Care"
+            android:textSize="18pt"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60pt">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60pt"
+            android:background="@drawable/bg_facecare"
+            android:layout_marginTop="20dp"
+            android:text="Face Care"
+            android:textSize="18pt"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60pt">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60pt"
+            android:background="@drawable/bg_sunproctect"
+            android:layout_marginTop="20dp"
+            android:text="Sun Protection"
+            android:textSize="18pt"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60pt">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60pt"
+            android:background="@drawable/bg_haircare"
+            android:layout_marginTop="20dp"
+            android:text="Hair Care"
+            android:textSize="18pt"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="28pt"
+        android:background="@drawable/ic_backgroud_index"
+        android:layout_marginTop="42dp">
+        <ImageView
+            android:layout_width="30pt"
+            android:layout_height="28pt"
+            android:src="@drawable/home"
+            android:layout_weight=".1"/>
+
+        <ImageView
+            android:layout_width="28pt"
+            android:layout_height="25pt"
+            android:src="@drawable/yeuthich"
+            android:layout_weight=".1"/>
+        <ImageView
+            android:layout_width="28pt"
+            android:layout_height="25pt"
+            android:src="@drawable/thongbao"
+            android:layout_weight=".1"/>
+        <ImageView
+            android:layout_width="30pt"
+            android:layout_height="28pt"
+            android:src="@drawable/canhan"
+            android:layout_weight=".1"/>
+    </LinearLayout>
+
+
+</LinearLayout>

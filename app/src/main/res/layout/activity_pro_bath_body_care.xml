@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProBathBodyCareActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25pt"
+        android:orientation="horizontal"
+        android:background="@drawable/ic_backgroud_index">
+    <ImageView
+        android:layout_width="45pt"
+        android:layout_height="24pt"
+        android:src="@drawable/danhmuc"
+        android:layout_weight=".1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="24pt"
+            android:layout_weight=".2"
+            android:textSize="12pt"
+            android:paddingTop="10dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="Bath and Body Care"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15pt"
+            android:src="@drawable/search"
+            android:layout_gravity="center"
+            android:layout_weight="0"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100pt"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20pt"
+            android:text="Body Care"
+            android:textSize="16pt"
+            android:textColor="@color/teal_800"
+            android:textStyle="bold"
+            android:paddingStart="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80pt"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>
